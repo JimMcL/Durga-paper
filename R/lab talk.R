@@ -1,4 +1,4 @@
-## Talk # 06.10.22
+# Code used in a talk introducing Durga # 06.10.22
 
 library(Durga)
 

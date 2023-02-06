@@ -1,3 +1,5 @@
+# Code to generate the figures in the paper
+
 #load package
 #install.packages('Durga')
 

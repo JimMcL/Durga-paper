@@ -1,4 +1,5 @@
-# Presentation
+# Code to generate an animated presentation
+
 library(Durga)
 library(JUtils)
 library(png)
