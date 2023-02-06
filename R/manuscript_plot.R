@@ -228,7 +228,9 @@ pageHeightLarge <- pageWidthLarge * 0.45
 pagePaper <- 'special'
 fontFamily <- 'Times'
 
-
+# Create output folder if it doesn't already exist
+if (!dir.exists("../output"))
+  dir.create("../output")
 
 png("../output/Figure 1.png", width=pageWidthLarge,
     height= pageHeightLarge, family=fontFamily,
