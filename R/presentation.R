@@ -36,7 +36,7 @@ pymax1 <- 83
 cols2 <- RColorBrewer::brewer.pal(3, "Set2")
 
 if (!file.exists("../data/Durga.png")) {
-  warning("Logo file Durga.png not found")
+  warning("Logo file ../data/Durga.png not found")
   logo <- NULL
 } else {
   logo <- readPNG("../data/Durga.png", native = TRUE)
